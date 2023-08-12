@@ -25,12 +25,15 @@ def _calculate_time_passed(timestamp_str):
 def show():
     timesheets = get_active_timesheets()
     if len(timesheets) == 0:
-        exit("No time tracking")
+        print("No time tracking")
+        exit()
     if len(timesheets) > 1:
-        exit("More than one active timesheet found")
+        print("More than one active timesheet found")
+        exit()
     timesheet = timesheets[0]
     customer_name = timesheet['activity']['project']['customer']['name']
     project_name = timesheet['activity']['project']['name']
     activity_name = timesheet['activity']['name']
     duration = _calculate_time_passed(timesheet['begin'])
-    exit(f"[ {customer_name} ] {project_name} | {activity_name} : {duration}")
+    print(f"[ {customer_name} ] {project_name} | {activity_name} : {duration}")
+    exit()
