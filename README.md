@@ -9,6 +9,11 @@ Contains three binaries to be symlinked in a location included in `PATH`.
 
 Creation of Projects, Activities or Deletion are not implemented yet as these are not so frequent operations, that can be done from the regular Kimai web ui.
 
+The purpose idea is to quickly select and start and activity from the desktop environment, and have the time tracking status displayed all the time. Here is an example of having
+`kimai-show` configured with `i3blocks`.
+
+![Time tracker in i3blocks](https://github.com/namelivia/kimai-fast/assets/1571416/f1aa4068-254d-4f5a-9387-108026905493)
+
 ## Requirements
 
  - Python3
