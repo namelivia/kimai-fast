@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.12.1 -->
+<interface>
+  <requires lib="gtk" version="4.6"/>
+  <object class="GtkApplicationWindow" id="main_window">
+    <property name="default-height">200</property>
+    <property name="default-width">400</property>
+    <property name="title">UI XML Test</property>
+    <child>
+      <object class="GtkBox">
+        <property name="margin-bottom">24</property>
+        <property name="margin-end">24</property>
+        <property name="margin-start">24</property>
+        <property name="margin-top">24</property>
+        <child>
+          <object class="GtkListBox" id="project_listbox">
+            <property name="halign">start</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkListBox" id="activity_listbox">
+            <property name="margin-start">24</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

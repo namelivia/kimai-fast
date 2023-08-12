@@ -1,0 +1,4 @@
+#!/bin/bash
+rm /usr/local/bin/kimai-select
+rm /usr/local/bin/kimai-show
+rm /usr/local/bin/kimai-stop

@@ -1,0 +1,5 @@
+#!/bin/bash
+SCRIPT_DIR="$( cd "$( dirname "$( readlink -f "${BASH_SOURCE[0]}" )" )" && pwd )"
+ln -s $SCRIPT_DIR/kimai-select /usr/local/bin/kimai-select
+ln -s $SCRIPT_DIR/kimai-show /usr/local/bin/kimai-show
+ln -s $SCRIPT_DIR/kimai-stop /usr/local/bin/kimai-stop
