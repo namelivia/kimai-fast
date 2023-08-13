@@ -7,7 +7,7 @@ Contains three binaries to be symlinked in a location included in `PATH`.
 - `kimai-show`: Shows the current activity and the time it has been running for.
 - `kimai-stop`: Stops the current activity if any.
 
-Creation of Projects, Activities or Deletion are not implemented yet as these are not so frequent operations, that can be done from the regular Kimai web ui.
+Deletion or update of Projects, Activities or Customers are not implemented yet as these are not so frequent operations, that can be done from the regular Kimai web ui.
 
 The purpose idea is to quickly select and start and activity from the desktop environment, and have the time tracking status displayed all the time.
 
