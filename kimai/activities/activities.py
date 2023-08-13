@@ -7,3 +7,14 @@ def get_activities_for_project_id(project_id):
         get_url(f"activities?project={project_id}"),
         headers=get_headers()
     ).json()
+
+def create_activity(name, project_id):
+    return requests.post(
+        get_url("activities"),
+        headers=get_headers(),
+        data={
+            "name": name,
+            "project": project_id,
+            "visible": True,
+        }
+    ).json()

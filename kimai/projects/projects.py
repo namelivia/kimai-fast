@@ -7,3 +7,14 @@ def get_projects():
         get_url("projects"),
         headers=get_headers()
     ).json()
+
+def create_project(name):
+    return requests.post(
+        get_url("projects"),
+        headers=get_headers(),
+        data={
+            "name": name,
+            "customer": 1, # TODO: Choose customer
+            "visible": True,
+        }
+    ).json()

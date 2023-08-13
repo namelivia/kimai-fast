@@ -5,7 +5,7 @@ import requests
 
 def get_active_timesheets():
     return requests.get(
-        get_url(f"timesheets/active"),
+        get_url("timesheets/active"),
         headers=get_headers()
     ).json()
 
@@ -17,7 +17,7 @@ def stop_timesheet(id):
 
 def start_timesheet(activity_id, project_id):
     return requests.post(
-        get_url(f"timesheets"),
+        get_url("timesheets"),
         headers=get_headers(),
         data={
             "begin": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
