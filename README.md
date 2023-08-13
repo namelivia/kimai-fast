@@ -12,6 +12,8 @@ Creation of Projects, Activities or Deletion are not implemented yet as these ar
 The purpose idea is to quickly select and start and activity from the desktop environment, and have the time tracking status displayed all the time. Here is an example of having
 `kimai-show` configured with `i3blocks`.
 
+![Quick activity selection](https://github.com/namelivia/kimai-fast/assets/1571416/550a4f30-163d-4e9a-b356-400546e05fb9)
+
 ![Time tracker in i3blocks](https://github.com/namelivia/kimai-fast/assets/1571416/f1aa4068-254d-4f5a-9387-108026905493)
 
 ## Requirements
