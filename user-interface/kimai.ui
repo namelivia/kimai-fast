@@ -19,6 +19,40 @@
             <property name="orientation">vertical</property>
             <child>
               <object class="GtkLabel">
+                <property name="label">Customer</property>
+                <property name="margin-bottom">24</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkListBox" id="customer_listbox">
+                <property name="halign">start</property>
+                <property name="show-separators">True</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="margin-top">24</property>
+                <child>
+                  <object class="GtkEntry" id="new_customer_input">
+                    <property name="placeholder-text">New customer</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton" id="new_customer_button">
+                    <property name="label">Create</property>
+                    <property name="margin-start">12</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="margin-start">48</property>
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="GtkLabel">
                 <property name="label">Project</property>
                 <property name="margin-bottom">24</property>
               </object>

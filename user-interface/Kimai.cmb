@@ -10,8 +10,8 @@
   <object>
 	(2,1,"GtkApplicationWindow","main_window",None,None,None,None,None,None),
 	(2,7,"GtkBox",None,1,None,None,None,1,None),
-	(2,10,"GtkBox",None,7,None,None,None,1,None),
-	(2,11,"GtkBox",None,7,None,None,None,None,None),
+	(2,10,"GtkBox",None,7,None,None,None,2,None),
+	(2,11,"GtkBox",None,7,None,None,None,1,None),
 	(2,12,"GtkListBox","activity_listbox",10,None,None,None,1,None),
 	(2,13,"GtkListBox","project_listbox",11,None,None,None,1,None),
 	(2,14,"GtkLabel",None,11,None,None,None,None,None),
@@ -21,7 +21,13 @@
 	(2,18,"GtkButton","new_project_button",16,None,None,None,1,None),
 	(2,19,"GtkButton","new_activity_button",17,None,None,None,1,None),
 	(2,20,"GtkEntry","new_project_input",16,None,None,None,None,None),
-	(2,21,"GtkEntry","new_activity_input",17,None,None,None,None,None)
+	(2,21,"GtkEntry","new_activity_input",17,None,None,None,None,None),
+	(2,22,"GtkBox",None,7,None,None,None,None,None),
+	(2,23,"GtkLabel",None,22,None,None,None,None,None),
+	(2,24,"GtkListBox","customer_listbox",22,None,None,None,1,None),
+	(2,25,"GtkBox",None,22,None,None,None,2,None),
+	(2,26,"GtkEntry","new_customer_input",25,None,None,None,None,None),
+	(2,27,"GtkButton","new_customer_button",25,None,None,None,1,None)
   </object>
   <object_property>
 	(2,1,"GtkWindow","default-height","200",None,None,None,None,None,None,None,None,None),
@@ -36,6 +42,7 @@
 	(2,10,"GtkOrientable","orientation","vertical",None,None,None,None,None,None,None,None,None),
 	(2,10,"GtkWidget","margin-start","48",None,None,None,None,None,None,None,None,None),
 	(2,11,"GtkOrientable","orientation","vertical",None,None,None,None,None,None,None,None,None),
+	(2,11,"GtkWidget","margin-start","48",None,None,None,None,None,None,None,None,None),
 	(2,12,"GtkListBox","show-separators","True",None,None,None,None,None,None,None,None,None),
 	(2,12,"GtkWidget","margin-start","24",None,None,None,None,None,None,None,None,None),
 	(2,13,"GtkListBox","show-separators","True",None,None,None,None,None,None,None,None,None),
@@ -51,6 +58,15 @@
 	(2,19,"GtkButton","label","Create",None,None,None,None,None,None,None,None,None),
 	(2,19,"GtkWidget","margin-start","12",None,None,None,None,None,None,None,None,None),
 	(2,20,"GtkEntry","placeholder-text","New project",None,None,None,None,None,None,None,None,None),
-	(2,21,"GtkEntry","placeholder-text","New activity",None,None,None,None,None,None,None,None,None)
+	(2,21,"GtkEntry","placeholder-text","New activity",None,None,None,None,None,None,None,None,None),
+	(2,22,"GtkOrientable","orientation","vertical",None,None,None,None,None,None,None,None,None),
+	(2,23,"GtkLabel","label","Customer",None,None,None,None,None,None,None,None,None),
+	(2,23,"GtkWidget","margin-bottom","24",None,None,None,None,None,None,None,None,None),
+	(2,24,"GtkListBox","show-separators","True",None,None,None,None,None,None,None,None,None),
+	(2,24,"GtkWidget","halign","start",None,None,None,None,None,None,None,None,None),
+	(2,25,"GtkWidget","margin-top","24",None,None,None,None,None,None,None,None,None),
+	(2,26,"GtkEntry","placeholder-text","New customer",None,None,None,None,None,None,None,None,None),
+	(2,27,"GtkButton","label","Create",None,None,None,None,None,None,None,None,None),
+	(2,27,"GtkWidget","margin-start","12",None,None,None,None,None,None,None,None,None)
   </object_property>
 </cambalache-project>
